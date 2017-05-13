@@ -1,0 +1,14 @@
+public void escapeTheMaze()
+{
+	if (wallOnRIght() && !frontIsClear() && wallOnLeft())
+	{
+		turnAround;
+	}
+	if (WallOnLeft() && wallONRight())
+	{
+		move();
+	}
+	if (wallOnRight() && !frontIsClear())
+	{
+		turnLeft()
+	}

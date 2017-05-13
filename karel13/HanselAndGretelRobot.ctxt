@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ followAllBreadCrumbs()
+comment1.params=
+comment1.target=void\ follow45BreadCrumbs()
+comment2.params=
+comment2.target=void\ follow15BreadCrumbs()
+comment3.params=distance
+comment3.target=void\ follow5BreadCrumbs(int)
+comment4.params=
+comment4.target=void\ turnA()
+comment5.params=
+comment5.target=void\ followBreadCrumb()
+comment6.params=distance
+comment6.target=void\ followXBreadCrumbs(int)
+comment7.params=
+comment7.target=void\ realFollowBreadCrumb()
+numComments=8

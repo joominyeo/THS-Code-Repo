@@ -1,0 +1,36 @@
+1.	Move till there is a wall on the Robots left and a wall on the robots right at the same time!
+2.	Pick up all the Beepers on this corner.
+3.	Use the moveForward(int numMoves) to move forward two corners.
+4.	Face north.
+5.	Use the moveForward(int numMoves) to move forward seven corners.
+6.	Face west.
+7.	Pick up all the Beepers on this corner.
+8.	Move forward until a wall is directly (next corner) in front of the Robot.
+9.	Face south.
+10.	Move forward until next to a Beeper.
+11.	Pick up all the Beepers on this corner.
+12.	Move forward until next to a Beeper.
+13.	Pick up all the Beepers on this corner.
+14.	Face east.
+15.	Move till there is a wall on the Robots left.
+16.	Turn around.
+17.	Move forward until next to another Robot.
+18.	Face north.
+19.	Move till there is a wall on the Robots left.
+20.	Move till there is a wall on the Robots right.
+21.	Use the moveForward(int numMoves) to move forward once.
+22.	Face east.
+23.	Move till there is a wall on either the Robots left and/or a wall on the robots right.
+24.	Move forward once.
+25.	Move till there is a wall on either the Robots left and/or a wall on the robots right.
+26.	Move forward once.
+27.	Move till there is a wall on either the Robots left and/or a wall on the robots right.
+28.	Move forward until a wall is directly (next corner) in front of the Robot.
+29.	Face south.
+30.	Move forward until next to a Beeper.
+31.	Pick up all the Beepers on this corner.
+32.	Face west.
+33.	Use the moveForward(int numMoves) to move forward 13 times.
+34.	Put all the Beepers from Beeper Bag on this corner.	//  note:  There should be 21 Beepers on corner 1, 1.
+35.	Turn around.
+36.	Move forward once.	//  The Robot should terminate at street 1 and avenue 2.

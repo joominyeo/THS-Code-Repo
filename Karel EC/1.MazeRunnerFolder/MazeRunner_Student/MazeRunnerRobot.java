@@ -1,0 +1,283 @@
+import kareltherobot.*;
+import java.awt.Color;
+
+/**
+ * Write a description of class MazeRunnerRobot here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MazeRunnerRobot extends MazeWalker
+{
+    public MazeRunnerRobot(int st, int ave, Direction dir, int num)
+    {
+        super(st, ave, dir, num);
+    }
+
+    public void task()
+    {
+        while (!nextToABeeper())
+        {
+            followWallRight();
+        }
+    }
+
+    public void task2()
+    {
+        moveForward(2);
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        move();
+        turnLeft();
+        moveForward(4);
+        turnRight();
+        moveForward(4);
+        turnLeft();
+        moveForward(5);
+        turnRight();
+        moveForward(7);
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(11);
+        turnLeft();
+        moveForward(2);
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        move();
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        moveForward(4);
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        turnLeft();
+        move();
+        turnRight();
+        moveForward(2);
+        turnLeft();
+        moveForward(2);
+        turnLeft();
+        moveForward(3);
+        turnRight();
+        move();
+        turnLeft();
+        moveForward(6);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(5);
+        turnLeft();
+        moveForward(4);
+        turnRight();
+        moveForward(2);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(6);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(2);
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        move();
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(2);
+        turnLeft();
+        moveForward(3);
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(2);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(3);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(3);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(3);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(3);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(4);
+        turnRight();
+        moveForward(4);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(3);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(4);
+        turnLeft();
+        move();
+        turnRight();
+        moveForward(4);
+        turnRight();
+        move();
+        turnLeft();
+        moveForward(3);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(4);
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        turnLeft();
+        move();
+        turnRight();
+        moveForward(6);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(8);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(12);
+        turnLeft();
+        move();
+        turnRight();
+        moveForward(4);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(5);
+        turnLeft();
+        move();
+        turnRight();
+        moveForward(6);
+        turnRight();
+        move();
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(3);
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(3);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(3);
+        turnRight();
+        moveForward(2);
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(3);
+        turnRight();
+        moveForward(2);
+        turnLeft();
+        move();
+        turnLeft();
+        move();
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        turnRight();
+        move();
+        turnRight();
+        moveForward(19);
+        turnRight();
+        moveForward(3);
+        turnLeft();
+        move();
+        turnRight();
+        moveForward(3);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(5);
+        turnRight();
+        moveForward(3);
+        turnRight();
+        move();
+        turnRight();
+        moveForward(2);
+        turnLeft();
+        move();
+        turnLeft();
+        moveForward(3);
+        turnLeft();
+        moveForward(2);
+        turnRight();
+        moveForward(3);
+        pickAll9Beepers(9);
+        move();
+        putAll9Beepers(9);
+        turnLeft();
+        moveForward(2);
+
+    }
+
+    public void turnRight()
+    {
+        turnLeft();
+        turnLeft();
+        turnLeft();
+    }
+
+    public void moveForward(int distance)
+    {
+        for (int x=1; x<=distance; x++)
+        {
+            move();
+        }
+    }
+
+    public void pickAll9Beepers(int num)
+    {
+        for (int x=1; x<=num; x++)
+        {
+            pickBeeper();
+        }
+
+    }
+
+    public void putAll9Beepers(int num)
+    {
+        for (int x=1; x<=num; x++)
+        {
+            putBeeper();
+        }
+    }
+}

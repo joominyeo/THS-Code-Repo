@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=st\ ave\ dir\ num
+comment0.target=ComparingRobot(int,\ int,\ Direction,\ int)
+comment1.target=boolean\ compareStreets()
+numComments=2

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=st\ ave\ dir\ numBeeper\ base
+comment0.target=GeneralRobot(int,\ int,\ Direction,\ int,\ int)
+comment1.target=void\ task()
+comment2.target=int\ getBase()
+numComments=3

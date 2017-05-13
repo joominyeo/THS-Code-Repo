@@ -1,0 +1,7 @@
+public void METHOD(int distance)
+	   {
+	       for (int x=1; x<=distance; x++)
+	       {
+	           move();
+	       }
+	   }
